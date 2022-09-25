@@ -1,0 +1,6 @@
+> Use TDD to implement aplicattion's main functions
+> Add JavaSpring framework and Database integrations
+	* Make it a RESTful application
+> Implement web frontend using React
+> Install it on personal server and open it to the Network
+> Implement app using React Native
