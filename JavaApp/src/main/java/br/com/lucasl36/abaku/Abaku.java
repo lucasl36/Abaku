@@ -1,4 +1,4 @@
-package br.com.lucasl.abaku;
+package br.com.lucasl36.abaku;
 
 /**
  *

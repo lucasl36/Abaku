@@ -1,4 +1,4 @@
-package br.com.lucasl.abaku.models;
+package br.com.lucasl36.abaku.models;
 
 import java.math.BigInteger;
 import java.time.LocalDateTime;
@@ -7,18 +7,22 @@ import java.time.LocalDateTime;
  *
  * @author Lucas Lopes
  */
-public class Category {
-
+public class Funds {
+    
     private BigInteger id;
     private String description;
+    private double value;
+    private boolean negativeValue;
     private User user;
     private LocalDateTime createdOn;
     
-    public Category(){}
+    public Funds() {}
 
-    public Category(BigInteger id, String description, User user, LocalDateTime createdOn) {
+    public Funds(BigInteger id, String description, double value, boolean negativeValue, User user, LocalDateTime createdOn) {
         this.id = id;
         this.description = description;
+        this.value = value;
+        this.negativeValue = negativeValue;
         this.user = user;
         this.createdOn = createdOn;
     }
@@ -37,6 +41,22 @@ public class Category {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public double getValue() {
+        return value;
+    }
+
+    public void setValue(double value) {
+        this.value = value;
+    }
+
+    public boolean isNegativeValue() {
+        return negativeValue;
+    }
+
+    public void setNegativeValue(boolean negativeValue) {
+        this.negativeValue = negativeValue;
     }
 
     public User getUser() {

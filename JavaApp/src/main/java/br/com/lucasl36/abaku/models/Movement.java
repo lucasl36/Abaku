@@ -1,4 +1,4 @@
-package br.com.lucasl.abaku.models;
+package br.com.lucasl36.abaku.models;
 
 import java.math.BigInteger;
 import java.time.LocalDate;

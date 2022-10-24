@@ -1,4 +1,4 @@
-package br.com.lucasl.abaku.models;
+package br.com.lucasl36.abaku.models;
 
 import java.math.BigInteger;
 import java.time.LocalDateTime;
@@ -7,20 +7,20 @@ import java.time.LocalDateTime;
  *
  * @author Lucas Lopes
  */
-public class Tag {
-    
+public class Category {
+
     private BigInteger id;
     private String description;
     private User user;
-    private LocalDateTime createOn;
+    private LocalDateTime createdOn;
     
-    public Tag(){};
+    public Category(){}
 
-    public Tag(BigInteger id, String description, User user, LocalDateTime createOn) {
+    public Category(BigInteger id, String description, User user, LocalDateTime createdOn) {
         this.id = id;
         this.description = description;
         this.user = user;
-        this.createOn = createOn;
+        this.createdOn = createdOn;
     }
 
     public BigInteger getId() {
@@ -47,12 +47,12 @@ public class Tag {
         this.user = user;
     }
 
-    public LocalDateTime getCreateOn() {
-        return createOn;
+    public LocalDateTime getCreatedOn() {
+        return createdOn;
     }
 
-    public void setCreateOn(LocalDateTime createOn) {
-        this.createOn = createOn;
+    public void setCreatedOn(LocalDateTime createdOn) {
+        this.createdOn = createdOn;
     }
     
 }
