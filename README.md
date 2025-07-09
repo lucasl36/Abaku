@@ -1,2 +1,2 @@
-# Abaku
-Personal Finance Manager by LucasL36
+# L36 Personal Accounting
+Personal Accounting API build on Java by LucasL36
